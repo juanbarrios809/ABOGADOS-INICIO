@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BuscaAbogados - Encuentra tu defensa legal</title>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white p-4 shadow-md flex justify-between items-center px-10">
+        <h1 class="text-2xl font-bold text-blue-900">BuscaAbogados</h1>
+        <div>
+            <button class="text-blue-900 font-semibold mx-4">Soy Abogado</button>
+            <button class="bg-blue-900 text-white px-6 py-2 rounded-lg">Iniciar Sesión</button>
+        </div>
+    </nav>
+
+    <section class="bg-blue-900 py-20 px-10 text-center">
+        <h2 class="text-4xl text-white font-bold mb-6">Encuentra al abogado experto que necesitas</h2>
+        <div class="bg-white p-4 rounded-xl shadow-lg max-w-5xl mx-auto flex flex-wrap gap-4 items-center">
+            <select class="flex-1 p-3 border rounded-lg outline-none text-gray-600">
+                <option>Especialidad (Ej: Familia, Laboral)</option>
+                <option>Derecho Civil</option>
+                <option>Derecho Penal</option>
+                <option>Derecho Comercial</option>
+            </select>
+            <input type="text" placeholder="Ciudad o Barrio" class="flex-1 p-3 border rounded-lg outline-none">
+            <button class="bg-orange-500 hover:bg-orange-600 text-white px-10 py-3 rounded-lg font-bold transition">
+                BUSCAR
+            </button>
+        </div>
+    </section>
+
+    <main class="max-w-6xl mx-auto py-12">
+        <h3 class="text-2xl font-bold text-gray-800 mb-8">Abogados destacados</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400" class="h-48 w-full object-cover">
+                <div class="p-6">
+                    <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-1 rounded">DERECHO PENAL</span>
+                    <h4 class="text-xl font-bold mt-2 text-gray-900">Dr. Ricardo Silva</h4>
+                    <p class="text-gray-600 text-sm italic">"Más de 15 años defendiendo derechos civiles."</p>
+                    <div class="mt-4 flex items-center justify-between">
+                        <span class="text-orange-500 font-bold">4.9 ★ (120 reseñas)</span>
+                        <button class="text-blue-900 font-bold border border-blue-900 px-4 py-1 rounded">Ver perfil</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </main>
+</body>
+</html>
